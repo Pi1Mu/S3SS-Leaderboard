@@ -33,6 +33,7 @@ Vercel Strageで管理。
 | ID           | INTEGER       | 記録ID (シーケンス)                           |
 | AUTHOR       | VARCHAR2(128) | 申請者（DiscordのID）                         |
 | TIME         | TIME?         | タイム                                        |
+| COMMENTS     | VARCHAR2(512) | コメント（自由記述欄）                        |
 | SEED_ID      | INTEGER       | シード（ID）                                  |
 | VOD          | VARCHAR2(256) | 動画リンク                                    |
 | IS_FASTEST   | BOOLEAN?      | その人・そのSEEDのRUNの中で最速か？           |
