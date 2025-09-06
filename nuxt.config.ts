@@ -13,6 +13,10 @@ export default defineNuxtConfig({
       })
     }
   ],
+  build: {
+    transpile: ['vuetify']
+  },
+  css: ['vuetify/styles'],
   app: {
     head: {
       titleTemplate: '%s',
