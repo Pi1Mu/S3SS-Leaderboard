@@ -18,4 +18,7 @@ export default defineNuxtConfig({
       titleTemplate: '%s',
     }
   },
+  runtimeConfig: {
+    databaseUrl: process.env.NUXT_DATABASE_URL!,
+  },
 })
