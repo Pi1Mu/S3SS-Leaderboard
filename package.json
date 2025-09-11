@@ -15,6 +15,7 @@
     "@fortawesome/free-regular-svg-icons": "^7.0.1",
     "@fortawesome/vue-fontawesome": "^3.1.1",
     "@neondatabase/serverless": "^1.0.1",
+    "@nuxt/fonts": "^0.11.4",
     "@vercel/postgres": "^0.10.0",
     "@vueuse/core": "^13.9.0",
     "discord.js": "^14.22.1",
@@ -22,6 +23,7 @@
     "nuxt-auth-utils": "^0.5.24",
     "sass": "^1.92.1",
     "sass-loader": "^16.0.5",
+    "unplugin-fonts": "^1.4.0",
     "vite-plugin-vuetify": "^2.1.2",
     "vue": "^3.5.21",
     "vue-i18n": "^11.1.12",
@@ -29,5 +31,8 @@
     "vuetify": "^3.9.7",
     "vuetify-nuxt-module": "^0.18.7"
   },
-  "packageManager": "pnpm@10.15.1+sha512.34e538c329b5553014ca8e8f4535997f96180a1d0f614339357449935350d924e22f8614682191264ec33d1462ac21561aff97f6bb18065351c162c7e8f6de67"
+  "packageManager": "pnpm@10.15.1+sha512.34e538c329b5553014ca8e8f4535997f96180a1d0f614339357449935350d924e22f8614682191264ec33d1462ac21561aff97f6bb18065351c162c7e8f6de67",
+  "devDependencies": {
+    "sass-embedded": "^1.92.1"
+  }
 }

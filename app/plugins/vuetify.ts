@@ -9,6 +9,8 @@ import { far } from '@fortawesome/free-regular-svg-icons'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
 
+import '../assets/styles/main.scss'
+
 import { defineNuxtPlugin } from '#app'
 
 const theme = {
@@ -17,7 +19,7 @@ const theme = {
         light: {
             dark: false,
             colors: {
-                primary: colors.deepPurple.base,       // プライマリ: 青緑
+                primary: '#D87CF9',       // プライマリ: 青緑
                 secondary: colors.lightGreen.base,   // セカンダリ: 紫
                 accent: colors.amber.base,       // 強調色
                 background: colors.grey.lighten5,
@@ -32,7 +34,7 @@ const theme = {
         dark: {
             dark: true,
             colors: {
-                primary: colors.lightGreen.lighten2,   // ダーク用に少し明るい青緑
+                primary: '#D87CF9',   // ダーク用に少し明るい青緑
                 secondary: colors.deepPurple.lighten2,
                 accent: colors.amber.lighten2,
                 background: colors.grey.darken4,
